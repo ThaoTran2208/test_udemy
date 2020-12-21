@@ -1,0 +1,13 @@
+#carousel {
+  background-image: url(./../../images/cover.jpg);
+  height: 31.25rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  color: $color-secondary;
+  form {
+    @include form();
+  }
+}

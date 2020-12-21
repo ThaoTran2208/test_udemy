@@ -1,0 +1,23 @@
+.header__left {
+  color: $color-text;
+  font-size: 0.8125rem;
+  display: flex;
+  align-items: center;
+  a {
+    flex-grow: 1;
+  }
+  .categories {
+    flex-grow: 1;
+  }
+  form {
+    @include form();
+  }
+}
+
+.header-right {
+  color: $color-text;
+  font-size: 0.8125rem;
+  .btn-login {
+    border: 1px solid #686f7a;
+  }
+}
